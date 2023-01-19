@@ -58,6 +58,15 @@ body {
     margin: 0 0 1em 0;
 }
 
+.container-botao:hover {
+    background-color: rgb(49, 231, 216);
+    color: var(--fundo);
+}
+
+.container-botao:active {
+    background-color: pink;
+}
+
 .botao-secundario {
     background-color: transparent;
     border: 2px solid var(--branco);
@@ -143,4 +152,12 @@ body {
     font-size: 14px;
     color: var(--cinza);
     margin: 0 0 2em 0;
+}
+
+.lista-botao:hover {
+    color: var(--azul);
+}
+
+.lista-botao:active {
+    color: pink;
 }
