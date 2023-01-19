@@ -70,11 +70,12 @@ body {
 
 .secundario {
     align-items: center;
-    margin: 0 10em;
+    margin: 0 13em;
 }
 
 .imagem-secundaria {
     width: 60%;
+    margin: 0 auto;
 }
 
 .descrição-titulo {
@@ -86,4 +87,13 @@ body {
 
 .descrição-texto {
     color: var(--cinza);
+}
+
+.secundario-botao {
+    display: inline-block;
+    margin: 1em 0 0 0;
+}
+
+.container-descrição {
+    padding: 2em;
 }
